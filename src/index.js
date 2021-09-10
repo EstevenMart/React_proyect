@@ -7,6 +7,7 @@ import NewComponent from './NewComponent';
 import Header from './Header';
 import Footer from './Footer';
 import ComponentePrueba from './ComponentePrueba';
+import Contenedor from './Contenedor';
 
 /* ReactDOM.render(
   <React.StrictMode>
@@ -31,8 +32,8 @@ ReactDOM.render(
 ); */
 
 ReactDOM.render(
-  <ComponentePrueba genero="F"/>,
-  document.getElementById('componentePrueba')
+  <Contenedor />,
+  document.getElementById('Contenedor')
 );
 
 // If you want to start measuring performance in your app, pass a function
