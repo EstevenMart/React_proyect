@@ -8,6 +8,8 @@ import Header from './Header';
 import Footer from './Footer';
 import ComponentePrueba from './ComponentePrueba';
 import Contenedor from './Contenedor';
+import Personaje from './Personaje';
+import ContenedorPersonaje from './ContenedorPersonaje';
 
 /* ReactDOM.render(
   <React.StrictMode>
@@ -31,9 +33,14 @@ ReactDOM.render(
   document.getElementById('footer')
 ); */
 
-ReactDOM.render(
+/* ReactDOM.render(
   <Contenedor />,
   document.getElementById('Contenedor')
+); */
+
+ReactDOM.render(
+  <ContenedorPersonaje />,
+  document.getElementById('ContenedorPersonaje')
 );
 
 // If you want to start measuring performance in your app, pass a function
