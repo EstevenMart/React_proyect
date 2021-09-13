@@ -12,42 +12,42 @@ const personajes =[
     {
         "nombre" : "Son Gokū",
         "edad" : 45,
-        "foto" : <img src={goku}/>,
+        "foto" : <img src={goku} width="100" height="50"/>,
         "raza" : "Sayayin",
         "genero" : "Masculino"
     },
     {
         "nombre" : "Vegeta",
         "edad" : 48,
-        "foto" : <img src={vegeta}/>,
+        "foto" : <img src={vegeta} width="100" height="50"/>,
         "raza" : "Sayayin",
         "genero" : "Maculino"
     },
     {
         "nombre" : "Bills",
         "edad" : 230256, 
-        "foto" : <img src={bills}/>,
+        "foto" : <img src={bills} width="100" height="250"/>,
         "raza" : "Dios de la Destruccion",
         "genero" : "Maculino"
     },
     {
         "nombre" : "Gohan",
         "edad" : 25,
-        "foto" : <img src={Gohan}/>,
+        "foto" : <img src={Gohan} width="100" height="250"/>,
         "raza" : "Sayayin",
         "genero" : "Maculino"
     },
     {
         "nombre" : "Bulma",
         "edad" : 19,
-        "foto" : <img src={Bulma}/>,
+        "foto" : <img src={Bulma} width="100" height="200"/>,
         "raza" : "Terricola",
         "genero" : "Femenino"
     },
     {
         "nombre" : "Whis",
         "edad" : 9999999,
-        "foto" : <img src={Whis}/>,
+        "foto" : <img src={Whis} width="100" height="250"/>,
         "raza" : "Angel",
         "genero" : "Masculino"
     }
