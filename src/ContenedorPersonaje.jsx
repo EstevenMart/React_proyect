@@ -7,6 +7,7 @@ import bills from './assets/img/bills.jpg';
 import Gohan from './assets/img/Gohan.png';
 import Bulma from './assets/img/Bulma.png';
 import Whis from './assets/img/Whis.png';
+import Formulario from './Formulario';
 
 const personajes =[
     {
@@ -58,8 +59,9 @@ const ContenedorPersonaje = () =>(
 
     <>
         {
-            personajes.map(c => <Personaje nombre={c.nombre}edad={c.edad}foto={c.foto}raza={c.raza}genero={c.genero} />)
+           // personajes.map(c => <Personaje nombre={c.nombre}edad={c.edad}foto={c.foto}raza={c.raza}genero={c.genero} />)
         }
+        <Formulario/>
     </>
     
 );
