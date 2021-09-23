@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
-const Personaje = ({nombre,edad,foto,raza,genero}) =>(
+const Personaje = ({nombre,edad,foto,raza,genero,id}) =>(
 
     <>
         <div className="card col-md-4" style={{width: '18rem'}}>
@@ -11,6 +12,7 @@ const Personaje = ({nombre,edad,foto,raza,genero}) =>(
             <p className="card-text">Foto: {foto}</p>
             <p className="card-text">Raza: {raza}</p>
             <p className="card-text">Genero: {genero}</p>
+            <p><Link to={`/personajes/${id}`}>Detalle</Link> </p>
             </div>
         </div>
     </>
@@ -23,7 +25,9 @@ Personaje.prototype = {
     edad: PropTypes.number,
     foto: PropTypes.symbol,
     raza: PropTypes.string,
-    genero: PropTypes.string
+    genero: PropTypes.string,
+    id: PropTypes.number,
+
 }
 
 Personaje.defaultProps = {
@@ -32,7 +36,8 @@ Personaje.defaultProps = {
     edad: 0,
     foto: "foto no asignada",
     raza: "raza no asignada",
-    genero: "Genero no Asigando"
+    genero: "Genero no Asigando",
+    id: "Id no Asigando",
 }
     
 export default Personaje;
